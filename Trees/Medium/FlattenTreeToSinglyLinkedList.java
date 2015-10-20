@@ -8,8 +8,9 @@
  * }
  */
 public class Solution {
-    private static TreeNode prev = null;
-    
+    private TreeNode prev = null;
+   
+   // METHOD TO FLATTEN A BINARY TREE TO SINGLY LINKEDLIST - PRE-ORDER. NEXT NODE SITS IN RIGHT NODE.
     public void flatten(TreeNode root) {
         if (root == null)
             return;
